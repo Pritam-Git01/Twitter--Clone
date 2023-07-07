@@ -142,15 +142,15 @@ function LoginPage() {
                 icon={<BsApple style={{ marginRight: "0.5rem" }} />}
               />
               <span>
-                ______<span className={styles.orLine}>______________</span>____
+                ____<span className={styles.orLine}>________</span>____
                 <sub className={styles.or}> or </sub>
-                ______<span className={styles.orLine}>____________</span>_____
+                ____<span className={styles.orLine}>______</span>_____
               </span>
               <InputField
                 label="Phone, Email or Username"
                 variant="filled"
                 onChange={handleChange}
-                style={{ marginTop: "11", width: "18rem" }}
+                style={{ marginTop: "1.5rem", width: "18rem" }}
               />
 
               {nxtBtn1 ? (
