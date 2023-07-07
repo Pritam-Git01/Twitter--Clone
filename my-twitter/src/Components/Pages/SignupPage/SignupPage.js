@@ -135,7 +135,7 @@ function SignUp() {
                 label="Password"
                 type="password"
                 variant="filled"
-                style={{ marginTop: "11", width: "80%", marginBottom: "1rem" }}
+                style={{  width: "80%", marginBottom: "1rem" }}
                 onChange={(e) => setPassword(e.target.value)}
               />
               {showPhone ? (
